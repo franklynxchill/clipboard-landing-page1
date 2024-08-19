@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Bai Jamjuree';
+  src: url('/assets/fonts/BaiJamjuree-Regular.woff2') format('woff2'),
+       url('/assets/fonts/BaiJamjuree-Regular.woff') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bai Jamjuree';
+  src: url('/assets/fonts/BaiJamjuree-SemiBold.woff2') format('woff2'),
+       url('/assets/fonts/BaiJamjuree-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h2 {
+  @apply text-3xl text-dark_GrayishBlue font-semibold w-[22rem] md:w-full mx-auto pb-6
+}
+
+h3 {
+  @apply text-3xl text-dark_GrayishBlue font-semibold w-[22rem] md:w-full mx-auto pb-3
+}
+
+p {
+  @apply text-xl w-[24rem] md:text-base md:w-[37rem] mx-auto;
+}
+
+.btn1 {
+  @apply py-3 text-white rounded-full bg-strongCyan px-36 hover:opacity-70 md:px-7;
+}
+
+.btn2 {
+  @apply py-3 text-white rounded-full bg-lightBlue px-36 hover:opacity-70 md:px-7;
+}
+
+a:hover {
+  @apply text-strongCyan;
+}
+
+i {
+  @apply text-3xl ml-3;
+}
